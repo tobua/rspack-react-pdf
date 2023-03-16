@@ -6,6 +6,10 @@ module.exports = {
   entry: {
     main: './index.jsx',
   },
+  output: {
+    // NOTE required only for deployment to GitHub pages.
+    publicPath: process.env.NODE_ENV === 'production' ? 'rspack-react-pdf' : '/',
+  },
   builtins: {
     html: [
       {
