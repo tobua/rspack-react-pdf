@@ -12,7 +12,7 @@ documents in the browser.
 - Download Link
 - Chart
 
-> Check out the [Demo](https://tobua.github.io/rspack-react-pdf 'PDF Generation in Browser Demo')
+> Check out the [Demo](https://rspack-react-pdf.vercel.app 'PDF Generation in Browser Demo')
 
 Includes an example of how Charts rendered with
 React (`recharts`) can be "screenshotted" and inserted into the PDF as images.
