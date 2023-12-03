@@ -17,6 +17,9 @@ documents in the browser.
 Includes an example of how Charts rendered with
 React (`recharts`) can be "screenshotted" and inserted into the PDF as images.
 
+> [!NOTE]  
+> This setup still uses the Rspack CLI. Rspack recently released a wrapper called [Rsbuild](https://rsbuild.dev) which might be easier to use.
+
 ## Installation & Usage
 
 After cloning this repository run the following commands

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { PDFViewer, PDFDownloadLink, Font } from '@react-pdf/renderer'
 import { Exmpl, Input } from 'exmpl'
