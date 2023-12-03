@@ -65,6 +65,6 @@ module.exports = {
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
-    new refreshPlugin(),
+    process.env.NODE_ENV !== 'production' ? new refreshPlugin() : () => {},
   ],
 }
